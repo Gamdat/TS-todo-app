@@ -1,0 +1,447 @@
+
+*{
+    color: rgb(85, 38, 4);
+}
+
+
+.Header{
+  text-align: center;
+  font-size: 3rem;
+    color: rgb(85, 38, 4);
+  
+}
+
+
+.welcome{
+  font-size: 4rem;
+  text-align: center;
+}
+
+.plan{
+  font-size: 2rem;
+}
+
+
+.todo-list{
+padding: 0;
+margin: 0;
+}
+
+.todo-list li{
+  padding: 1px;
+  margin-bottom: -4rem;
+}
+
+
+.todo-list li .buttons{
+  display: flex;
+  gap: 0.2rem;
+ 
+}
+
+.Create{
+  color: rgb(85, 38, 4);
+  border-radius: 8px;
+  margin-left: 600px;
+  padding: 14px;
+}
+
+.not-found{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.not-found h1{
+  font-size: 3.5rem;
+  margin-top: 300px;
+}
+
+.not-found p{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+
+.add-todo input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(148, 70, 15);
+  margin-left: 600px;
+  margin-top: 50px;
+  margin-right: 20px;
+  
+}
+
+.Add{
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid rgb(148, 70, 15);
+  margin-left: 20px;
+}
+
+.buttons{
+  margin-left: 600px;
+}
+
+.delete{
+  padding: 8px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: 3px solid rgb(148, 70, 15);
+  background-color: beige;
+  color: rgb(85, 38, 4);
+  cursor: pointer;
+  margin-right: 2rem;
+  margin-left: -15rem;
+}
+
+.edit{
+  padding: 8px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: 3px solid rgb(148, 70, 15);
+  background-color: bisque;
+  color: rgb(85, 38, 4);
+    cursor: pointer;
+
+}
+
+.search{
+  padding: 7px;
+  border-radius: 8px;
+  border: 3px solid rgb(148, 70, 15);
+  color: rgb(85, 38, 4);
+  cursor: pointer;
+  width: 18vw;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+
+.search input{
+  border: none;
+  font-size: 0.9rem;
+  text-align: center;
+  background-color: transparent;
+}
+
+
+.filterbtn{
+  margin-top: -30px;
+  margin-left: 250px;
+  margin-bottom: 10px;
+}
+
+.allbtn{
+  padding: 8px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: 3px solid rgb(148, 70, 15);
+  background-color: bisque;
+  color: rgb(85, 38, 4);
+  cursor: pointer;
+  margin-right: 20px;
+  width: 11vw;
+}
+
+.completebtn{
+   padding: 8px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: 3px solid rgb(148, 70, 15);
+  background-color: bisque;
+  color: rgb(85, 38, 4);
+  cursor: pointer;
+  margin-right: 20px;
+  width: 11vw;
+}
+
+.incompletebtn{
+   padding: 8px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: 3px solid rgb(148, 70, 15);
+  background-color: bisque;
+    color: rgb(85, 38, 4);
+  cursor: pointer;
+  margin-right: 20px;
+  width: 11vw;
+}
+
+
+.todo-list{
+  margin-left: 400px;
+  margin-top: 100px;
+  background-color: bisque;
+  width: 50vw;
+  padding: 1.2rem;
+ border-radius: 10px;
+ box-shadow: 0 2px 10px rgb(71, 35, 9);
+ transition: transform 0.2s ease-in-out;
+}
+
+.back-button{
+   padding: 12px;
+  font-size: 0.9rem;
+  border-radius: 9px;
+ border: 1px solid rgb(148, 70, 15);
+  background-color: bisque;
+  color: rgb(85, 38, 4);
+  cursor: pointer;
+}
+
+.todo-details{
+  text-align: center;
+  margin-top: 250px;
+}
+
+.todo-details h2{
+  font-size: 2.6rem;
+}
+
+.todo-details p{
+  font-size: 1.9rem;
+}
+
+.pagination-control{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.prev{
+  padding: 15px;
+  font-size: 0.9rem;
+  border-radius: 9px;
+ border: 1px solid rgb(148, 70, 15);
+  background-color: bisque;
+ color: rgb(85, 38, 4);
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 3rem;
+}
+
+.page{
+  font-size: 1.4rem;
+  margin-right: 20px;
+}
+
+.next{
+  padding: 15px;
+  font-size: 0.9rem;
+  border-radius: 9px;
+ border: 1px solid rgb(148, 70, 15);
+  background-color: bisque;
+ color: rgb(85, 38, 4);
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+
+.todo{
+    padding: 8px;
+    width: 30vw;
+    border-radius: 7px;
+    border: 1px solid rgb(148, 70, 15);
+    margin-top: 30px;
+    font-size: 1.0rem;
+}
+
+.create{
+     padding: 8px;
+    width: 30vw;
+    border-radius: 7px;
+    border: 1px solid rgb(148, 70, 15);
+    margin-top: 20px;
+    font-size: 1.0rem;
+}
+
+
+.errorpage{
+     padding: 8px;
+    width: 30vw;
+    border-radius: 7px;
+    border: 1px solid rgb(148, 70, 15);
+    margin-top: 20px;
+    font-size: 1.0rem;
+}
+
+.notfound{
+     padding: 8px;
+    width: 30vw;
+    border-radius: 7px;
+    border: 1px solid rgb(148, 70, 15);
+    margin-top: 20px;
+    font-size: 1.0rem;
+}
+
+.chatgpt{
+      padding: 8px;
+    width: 30vw;
+    border-radius: 7px;
+    border: 1px solid rgb(148, 70, 15);
+    margin-top: 20px;
+    font-size: 1.0rem;
+}
+
+.link{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    width: 30vw;
+    margin-left: 30px;
+    padding: 1px;
+}
+
+.chat-box {
+  border: 1px solid rgb(148, 70, 15);
+    padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.message {
+  margin: 0.5rem 0;
+}
+
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+input{
+    padding: 8px;
+    margin-left: 1rem;
+    color: rgb(85, 38, 4);
+    font-size: .8rem;
+}
+
+.chat-btn{
+    padding: 8px;
+    margin-left: 2rem;
+    width: 25vw;
+     border-radius: 7px;
+    border: 1px solid rgb(148, 70, 15);
+    background-color: rgb(85, 38, 4);
+    color: beige;
+    cursor: pointer;
+}
+
+
+.chat-box:hover{
+    background-color: beige;
+    color: rgb(85, 38, 4);
+}
+
+.Link{
+  text-align: center;
+  padding: 2rem;
+}
+
+
+@media (max-width:400px) {
+   
+
+.Header{
+  font-size: 4rem;
+  margin-top: 5rem;
+margin-left: 5rem;
+}
+
+.todo{
+    padding: 6px;
+    font-size: 1rem;
+}
+
+.create{
+      padding: 6px;
+    font-size: .9rem;
+}
+
+
+.errorpage{
+      padding: 6px;
+    font-size: .8rem;
+}
+
+
+.notfound{
+      padding: 6px;
+    font-size: .9rem;
+}
+
+
+.add-todo input{
+  padding: 7px;
+ margin-left: 2rem;
+  
+}
+
+.not-found h1{
+  font-size: 3rem;
+}
+
+.not-found p{
+  font-size: 1.1rem;
+}
+
+
+.search{
+  padding: 6px;
+  margin-left: 2rem;
+  width: 27vw;
+}
+
+.search input{
+  font-size: 0.7rem;
+  text-align: center;
+  margin-left: -2.4rem;
+  background-color: transparent;
+}
+
+
+.filterbtn{
+  margin-top: -40px;
+  margin-left: 11rem;
+}
+
+.allbtn{
+  padding: 7px;
+  font-size: 0.7rem;
+  width: 16vw;
+}
+
+.completebtn{
+    padding: 7px;
+  font-size: 0.7rem;
+  width: 19vw;
+}
+
+.incompletebtn{
+   padding: 7px;
+  font-size: 0.7rem;
+  width: 19vw;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.prev{
+  padding: 8px;
+}
+
+.next{
+  padding: 8px;
+}
+
+
+.todo-list{
+margin-left: 4rem;
+width: 95vw;
+}
+
+
+.buttons{
+  margin-left: 400px;
+}
+
+}
