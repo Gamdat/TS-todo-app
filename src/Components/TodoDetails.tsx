@@ -20,7 +20,7 @@ interface Todo {
 
 
 
-const TodoDetails = (): JSX.Element => {
+const TodoDetails = () => {
 
   const { id } = useParams<{ id: string }>();
 

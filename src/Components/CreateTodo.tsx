@@ -4,7 +4,7 @@ import { db} from "../db/db";
 import type {OfflineTodo} from "../db/db"
 
 
-function CreateTodo(): JSX.Element {
+function CreateTodo(){
 
   const [title, setTitle] = useState('');
 

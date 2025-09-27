@@ -8,7 +8,7 @@ import TodoDetails from './Components/TodoDetails';
 
 
 
-function App(): JSX.Element {
+function App() {
 
   return (
 

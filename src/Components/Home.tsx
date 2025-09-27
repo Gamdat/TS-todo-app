@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function Home(): JSX.Element {
+function Home() {
 
   return (
 

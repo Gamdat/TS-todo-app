@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const NotFound = (): JSX.Element => {
+const NotFound = () => {
 
   return (
 

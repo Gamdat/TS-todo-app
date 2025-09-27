@@ -17,7 +17,7 @@ function fetchTodos(): Promise<OfflineTodo[]> {
 
 }
 
-function TodoList(): JSX.Element {
+function TodoList()  {
   const [currentPage, setCurrentPage] = useState(1);
   const todosPerPage = 10;
   const [searchTerm, setSearchTerm] = useState('');
@@ -81,8 +81,6 @@ function TodoList(): JSX.Element {
     onSuccess: () => {
 
       queryClient.invalidateQueries(['todos']);
-
-      toast.success('Todo Deleted Successfully');
 
     },
 
