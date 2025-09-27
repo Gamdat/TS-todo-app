@@ -1,7 +1,39 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+
+  "compilerOptions": {
+
+    "target": "ESNext",
+
+    "module": "ESNext",
+
+    "lib": ["DOM", "ESNext"],
+
+    "jsx": "react-jsx",
+
+    "moduleResolution": "Node",
+
+    "esModuleInterop": true,
+
+    "allowSyntheticDefaultImports": true,
+
+    "skipLibCheck": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+
+    "noImplicitAny": false,
+
+    "resolveJsonModule": true,
+
+    "isolatedModules": true,
+
+    "types": ["vite/client", "node"]
+
+  },
+
+  "include": ["src", "env.d.ts"],
+
+  "exclude": ["node_modules", "dist"]
+
 }
