@@ -4,7 +4,7 @@ import { db} from "../db/db";
 import type {OfflineTodo} from "../db/db"
 
 
-function CreateTodo(){
+function CreateTodo() {
 
   const [title, setTitle] = useState('');
 
@@ -49,8 +49,6 @@ function CreateTodo(){
       queryClient.invalidateQueries(['todos']);
 
       setTitle('');
-
-      toast.success('Todo Created Successfully (offline if needed)');
 
     },
 
